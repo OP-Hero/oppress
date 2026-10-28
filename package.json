@@ -1,0 +1,24 @@
+{
+  "name": "wiki",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/markdown-it": "latest",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitepress": "latest",
+    "vue": "latest",
+    "yaml": "latest",
+    "markdown-it-wikilinks": "latest",
+    "markdown-it-abbr": "latest"
+  }
+}
